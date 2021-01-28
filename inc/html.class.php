@@ -4166,7 +4166,7 @@ JS;
          }
          echo "</table>";
       } else {
-         echo __('Empty array');
+         echo __('Vetor Vazio');
       }
    }
 
@@ -7263,9 +7263,9 @@ JAVASCRIPT;
                                  title='" . __s('Search') ."'><i class='fa fa-search'></i>
                                  <span class='sr-only'>" . __s('Search') . "</span></a>";
             } else {
-               echo "<a href='#' class='pointer disabled' title='" . __s('Search is disabled')."'>".
+               echo "<a href='#' class='pointer disabled' title='" . __s('Pesquisa indisponível')."'>".
                   "<i class='fa fa-search'></i>".
-                  "<span class='sr-only'>" . __('Search is disabled') . "</span></a>";
+                  "<span class='sr-only'>" . __('Pesquisa is disabled') . "</span></a>";
             }
             echo "</span>";
             // Links

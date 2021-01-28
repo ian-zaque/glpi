@@ -74,7 +74,7 @@ class Impact extends CommonGLPI {
       // Only enabled for CommonDBTM
       if (!is_a($item, "CommonDBTM", true)) {
          throw new InvalidArgumentException(
-            "Argument \$item ($class) must be a CommonDBTM."
+            "Argumento \$item ($class) deve ser um CommonDBTM."
          );
       }
 
@@ -84,7 +84,7 @@ class Impact extends CommonGLPI {
       // Check if itemtype is valid
       if (!$is_enabled_asset && !$is_itil_object) {
          throw new InvalidArgumentException(
-            "Argument \$item ($class) is not a valid target for impact analysis."
+            "Argumento \$item ($class) is not a valid target for impact analysis."
          );
       }
 
@@ -134,7 +134,7 @@ class Impact extends CommonGLPI {
       // Only enabled for CommonDBTM
       if (!is_a($item, "CommonDBTM")) {
          throw new InvalidArgumentException(
-            "Argument \$item ($class) must be a CommonDBTM)."
+            "Argumento \$item ($class) deve ser um CommonDBTM."
          );
       }
 
@@ -685,7 +685,7 @@ class Impact extends CommonGLPI {
             break;
 
          default:
-            throw new \InvalidArgumentException("Invalid direction : $direction");
+            throw new \InvalidArgumentException("Direção inválida : $direction");
       }
 
       // Insert start node in the queue
@@ -1186,7 +1186,7 @@ class Impact extends CommonGLPI {
             break;
          default:
             throw new InvalidArgumentException(
-               "Invalid value for argument \$direction ($direction)."
+               "Valor inválido para o argumento \$direction ($direction)."
             );
       }
 
@@ -1386,7 +1386,7 @@ class Impact extends CommonGLPI {
             break;
          default:
             throw new InvalidArgumentException(
-               "Invalid value for argument \$direction ($direction)."
+               "v \$direction ($direction)."
             );
       }
 
@@ -1637,7 +1637,7 @@ class Impact extends CommonGLPI {
 
          default:
             throw new InvalidArgumentException(
-               "Invalid value for argument \$direction ($direction)."
+               "Valor inválido para o argumento \$direction ($direction)."
             );
       }
    }
